@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="General">
+        <setting type="lsep" label="Metadata" />
+        <setting id="flatten_seasons" label="Flatten TV Seasons" type="enum" default="one season" values="one season|always" />
+        <setting id="filter_seasons" label="Filter TV Specials" type="bool" default="true" />
+        <setting id="tmdb_images" label="Image resolution" type="enum" default="med" values="medium|low|original|high" />
+        <setting id="tmdb_pages" label="TMDB page multiplier (search results)" type="number" default="2" enable="false" visible="false" />
+        <setting id="tmdb_api_key" label="" type="text" default="" visible="false" />
+        <setting type="lsep" label="Trakt" />
+        <setting id="trakt_username" label="Trakt username" type="text" default="" enable="false" />
+        <setting id="trakt_client" label="" type="text" default="" visible="false" />
+        <setting id="trakt_secret" label="" type="text" default="" visible="false" />
+        <setting id="trakt_token" label="" type="text" default="" visible="false" />
+        <setting id="trakt_refresh" label="" type="text" default="" visible="false" />
+        <setting id="trakt_expires" label="" type="number" default="" visible="false" />
+        <setting type="lsep" label="Debug Mode" />
+        <setting id="debug_enabled" label="Enabled" type="bool" default="false" />
+    </category>
+</settings>

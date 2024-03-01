@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.example" version="3.11.1" name="Example Video Plugin" provider-name="kodifitzwell">
+<requires>
+    <import addon="xbmc.python" version="3.0.1" />
+    <import addon="script.module.future" />
+    <import addon="script.module.requests" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+    <summary lang="en_US">Example Video Plugin</summary>
+    <description lang="en_US">An example video plugin for Kodi mediacenter.</description>
+    <disclaimer lang="en_US">Credit to "SimplePlugin 3" and "tmdbsimple" authors.</disclaimer>
+    <license>GPL-3.0-only</license>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+    </assets>
+</extension>
+</addon>

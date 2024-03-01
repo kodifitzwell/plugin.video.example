@@ -1,0 +1,1 @@
+Credit to "SimplePlugin 3" and "tmdbsimple" authors.
